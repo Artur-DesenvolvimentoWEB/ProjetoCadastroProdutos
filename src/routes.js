@@ -24,7 +24,8 @@ routes.put("/Produtos/:id", ProdutosController.update);
 routes.delete("/Produtos/:id", ProdutosController.delete); 
 
 /* Login */
-/** Criar a rota de login com o método post. */
+routes.post("/login", LoginController.login);
+
 
 /* User */
 routes.post("/users", UserController.create);
